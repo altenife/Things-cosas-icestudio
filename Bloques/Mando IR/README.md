@@ -56,7 +56,7 @@ Y por último a traves de un comparador confirmamos que el comando recibido más
 <p align="center">
   <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Mando%20IR/Imagenes/0.png"></p>
   
-  Adicionalmente general otro pulso si mantenemos apretado el botón para reenviar continuamente el mismo codigo, pero he decidido inivirlo por el momento.
+  Adicionalmente genera otro pulso si mantenemos apretado el botón para reenviar continuamente el mismo codigo, pero he decidido inhibirlo por el momento.
   
   
 ## Proyectos construidos con 🛠️
