@@ -7,12 +7,15 @@ Un bloque para conectar la señal de entrada de un sensor IR y convertir el prot
 
 **Aquí os dejo algunos ejemplos del contenido**
 
+* Este es el bloque montado en un ejemplo simple.
+<p align="center">
+  <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Mando%20IR/Imagenes/Ejemplo%201.png"></p>
+
 * Este es el diseño del bloque por dentro.
 <p align="center">
   <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Mando%20IR/Imagenes/Proyecto.png"></p>
   
-<p align="center">
-  <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Mando%20IR/Imagenes/Ejemplo%201.png"></p>
+
 
 ¿Como funciona? 🔧
 
@@ -39,10 +42,9 @@ Al pulsar una tecla del mando, el mensaje se compone de la siguiente cadena de p
 <p align="center">
   <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Mando%20IR/Imagenes/Protocolo%20NEC.png"></p>
   
-Lo que hace el bloque es esperar los 9ms + los 4ms del comienzo de la señal, recibe los siguientes 32 bits pero inhibe los 16 primeros,
-pues solo son una "espera" y nos quedamos solo con los últimos 16 Bits, que corresponden al comando de la tecla mas su inverso lógico, (o negación).
-
-Y por último a traves de un comparador confirmamos que el comando recibido más su inverso coinciden, si esto es así entoces se envia el código.
+Lo que hace el bloque es esperar los 9ms + los 4ms del comienzo de la señal, recibe los siguientes 32 Bits, los 16 primeros corresponden al codigo del dispositivo receptor, los cuales son un codigo de 8 Bits "00000000" y los compara con su negada "11111111" si coinciden,
+se activa una puerta and para permitir el tick a los siguientes 16 Bits, que corresponden a los 8 Bits del comando mas los 8 bits del comando pero negados, y si estos tambien coniciden nos habilita la señar de carga del registro.
+Con esto evitamos interferencias y aseguramos que recibimos el codigo correcto.
 
 * En esta imagen podemos analizar como se comporta el protocolo NEC enviando el codigo del boton "cero" que corresponde con el codigo 0x16E9
 
