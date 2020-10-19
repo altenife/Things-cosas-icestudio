@@ -6,6 +6,8 @@
 Comenzemos!!! 🚀
 Esto es lo que te vas a encontrar en este proyecto.
 
+Video: https://www.youtube.com/watch?v=F9NfgoNkp7c
+
 Un bloque para conectar a la FPGA un display de 4 digitos de 7 segmentos controlados por un TM1637
 
 **Aquí os dejo algunos ejemplos del contenido**
