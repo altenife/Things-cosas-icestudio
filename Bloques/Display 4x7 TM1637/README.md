@@ -30,9 +30,12 @@ Y una muestra del bloque.
 Llamemos a cada comando completo "ciclos". Necesitamos 4 ciclos, pues cada display necesita un ciclo completo, y cada ciclo consta de las siguientes partes.
 
 -Digito que queremos mostrar en el display: Debemos seleccionar los segmentos que queremos encender ó apagar en el display.
+
 -La intensidad del brillo: Este valor utiliza los 3 primeros bits, dando como opciones 7 intensidades diferentes, yo solo he utilizado 4, pues entre las
 ultimas intensidades apenas hay direferencia. Los bits 4 y 8 es requisito que estén en 1.
+
 -Dirección: Esto siempre tiene que estar en 00100010.
+
 -Display: Aqui elegimos en cual de los 4 displays queremos mostrar la infomación anterior ,eligiendolo solo con los 2 primeros bits, los bits 4 y 8 deben estar
 en 1 para completar el protocolo.  
  
