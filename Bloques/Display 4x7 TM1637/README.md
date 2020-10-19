@@ -24,7 +24,7 @@ Y una muestra del bloque.
 <p align="center">
   <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Display%204x7%20TM1637/imagenes/Protocolo%20TM1637.png"></p>
 
--Como podemos ver en la siguiente imagen, tenemos el analisis Lógico del protocolo que utiliza el display TM1637, vamos por partes:
+-Como podemos ver en la imagen anterior, tenemos el analisis Lógico del protocolo que utiliza el display TM1637, vamos por partes:
 
 *El protocolo se basa en I2C pero no es exactamente igual, hay unas pequeñas diferencias que os expongo a continuacion.
 Llamemos a cada comando completo "ciclos". Necesitamos 4 ciclos, pues cada display necesita un ciclo completo, y cada ciclo consta de las siguientes partes.
