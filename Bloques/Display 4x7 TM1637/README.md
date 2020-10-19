@@ -9,6 +9,9 @@ Esto es lo que te vas a encontrar en este proyecto.
 Un bloque para conectar a la FPGA un display de 4 digitos de 7 segmentos controlados por un TM1637
 
 **Aquí os dejo algunos ejemplos del contenido**
+<p align="center">
+  <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Display%204x7%20TM1637/imagenes/Ejemplo%201%20hola%20brillo%20al%20maximo..png"></p>
+
 
 * Este es el bloque montado y funcionando, mostrando el texto "hola".
 <p align="center">
