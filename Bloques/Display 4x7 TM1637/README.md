@@ -21,7 +21,7 @@ Un bloque para conectar a la FPGA un display de 4 digitos de 7 segmentos control
   
 Y una muestra del bloque.
 <p align="center">
-  <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Display%204x7%20TM1637/imagenes/Bloque%20TM1637.png"></p>
+  <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Display%204x7%20TM1637/imagenes/Bloque%20TM1637%20V1.1.png"></p>
   
 
 **¿Como funciona? 🔧
@@ -42,7 +42,9 @@ ultimas intensidades apenas hay direferencia. Los bits 4 y 8 es requisito que es
 -Dirección: Esto siempre tiene que estar en 00100010.
 
 -Display: Aqui elegimos en cual de los 4 displays queremos mostrar la infomación anterior ,eligiendolo solo con los 2 primeros bits, los bits 4 y 8 deben estar
-en 1 para completar el protocolo.  
+en 1 para completar el protocolo. 
+
+- En la versión V1.1 se ha optimizado el bloque y pasa de ocupar un 40% de los recursos de la FPGA a solo un 3%, (si es exagerado) tambien se añade un bit para poder encender o apagar los dos puntos (:)
  
   
 ## Proyectos construidos con 🛠️
