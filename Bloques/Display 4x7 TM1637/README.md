@@ -10,6 +10,10 @@ Video: https://www.youtube.com/watch?v=F9NfgoNkp7c
 
 Un bloque para conectar a la FPGA un display de 4 digitos de 7 segmentos controlados por un TM1637
 
+Puedes decargartelo aqui.
+[Bloque TM1637](https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Display%204x7%20TM1637/Display%20TM1637%20V%201.1.ice)
+
+
 **Aquí os dejo algunos ejemplos del contenido**
 <p align="center">
   <img src="https://github.com/altenife/Things-cosas-icestudio/blob/master/Bloques/Display%204x7%20TM1637/imagenes/Ejemplo%201%20hola%20brillo%20al%20maximo..png"></p>
