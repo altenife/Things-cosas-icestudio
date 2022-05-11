@@ -18,7 +18,7 @@ https://youtu.be/vJ6uivx0jMs
 **¿Como funciona? 🔧
 
 Este bloque lo que hace es convertir las entradas y salidas del teclado en numeros binarios.
-Los 4 primeros pines son de entrada y los otros 4 pines de salida, si por ejemplo queremos pulsar la tecla numero "1" el pulso entra por el pin numero 1 y sale por el pin numero 4.
+Los 4 primeros pines son de entrada y los otros 4 pines de salida, si por ejemplo queremos pulsar la tecla numero "1" el pulso entra por el pin numero 1 y sale por el pin numero 5.
 En esta imagen se puede ver perfectamente la union y el funcionamiento.
 
 <p align="center">
